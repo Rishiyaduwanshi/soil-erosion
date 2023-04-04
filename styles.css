@@ -1,0 +1,215 @@
+*{
+    margin: 0;padding: 0;
+}
+a:hover{
+    text-decoration-color: #04AA6D ;
+}
+
+.upperbgi{
+    background-image:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.bgimg{
+    padding: 0;
+    margin-bottom : -4px ;
+}
+#navbar {
+    background-image:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    text-align: center;
+    font: size 500px;
+    top: 0px;
+    z-index: 100;
+    position: sticky;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font: size 15px;
+}
+
+#navbar ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+}
+.container{
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.herobox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 45px;
+}
+.right{
+    margin: 2px 16px 23px 0px ;
+}
+.msg{
+    font-size: xx-large;
+}
+/* *********************************************Introduction****************************************** */
+#introduction{
+    margin: 0 45px 5px 45px ;
+}
+.introductionheading {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.paragraph{
+    font-size: 2vw;
+
+}
+/* *********************************************About us ****************************************** */
+#aboutus{
+    margin: 0 45px 5px 45px ;
+}
+.aboutusheading {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.paragraph{
+    font-size: 2vw;
+
+}
+
+/* *********************************************Causes of soil erosion ****************************************** */
+#causes{
+    margin: 0 45px 5px 45px ;
+    padding: auto;
+}
+.causesheading {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.causesimg{
+    padding: 0;
+}
+/* *********************************************Impacts of soil erosion ****************************************** */
+#impacts{
+    margin: 0 45px 5px 45px ;
+}
+.impactssheading {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.paragraph{
+    font-size: 2vw;
+
+}
+/* *********************************************Steps to control****************************************** */
+#control{
+    margin: 0 45px 5px 45px ;
+}
+.controlheading {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.paragraph{
+    font-size: 2vw;
+
+}
+/* ******************************footer area ************************************************* */
+
+.footerarea{
+    border: 2vw;
+    border-color: red;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 26px;
+    background-color:black;
+
+}
+
+.fp,.followus,.address{
+    font: bold;
+    font-size: xx-large
+    list-style-type:none;
+    text-decoration:none;
+}
+
+.pfp,.paddress,.pfollowus{
+    font-size: xx-large;
+    color: brown;
+}
+.footerarea ul li a{
+    list-style-type:none;
+    text-decoration: none;
+    color: rgb(6, 80, 11);
+}
+
+
+/* ************************************newsletter************************************* */
+
+form {
+    
+    font-family: Arial;
+    margin-left: 17vw;
+    margin-right: 16vw;
+    margin-top:10px ;
+    margin-bottom:10px ;
+    border-color: #04AA6D;
+    border-style: groove;
+    border-radius: 10px;
+    border-width: 8px;
+    background-color: black;
+  }
+  
+  .newsletter {
+    padding: 2px;
+    background-image:linear-gradient(to right, #b04100, #96c93d);
+    font-size: large;
+    text-align: center;
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #117b54;
+    color: white;
+    border: 2px;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+  #newsletter{
+    padding-top: 4px;
+  }
+
+/* *************************footer********************************** */
+footer{
+    text-align: center;
+    background-color:black;
+    color: wheat;
+    height: 25px;
+}
+.outerfooter{
+    background-color: black;
+}
+.footerarea ul li a:hover{
+    border-bottom: 3px solid #ff7a59;
+}
+#navbar ul li a:hover{
+    border-bottom: 3px solid #ff7a59;
+}

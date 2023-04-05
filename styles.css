@@ -1,5 +1,6 @@
 *{
     margin: 0;padding: 0;
+    box-sizing: border-box;
 }
 a:hover{
     text-decoration-color: #04AA6D ;
@@ -34,6 +35,7 @@ a:hover{
 }
 .container{
     min-width: 100vw;
+    
     margin: 0;
     padding: 0;
 }
@@ -98,10 +100,6 @@ a:hover{
     text-align: center;
     font-size: 3vw;
     font-weight: bold;
-}
-.paragraph{
-    font-size: 2vw;
-
 }
 /* *********************************************Steps to control****************************************** */
 #control{
@@ -208,11 +206,12 @@ footer{
     background-color: black;
 }
 .footerarea ul li a:hover{
-    border-bottom: 3px solid #ff7a59;
+    border-bottom: 3px solid #e1e50f;
 }
 #navbar ul li a:hover{
-    border-bottom: 3px solid #ff7a59;
+    border-bottom: 3px solid #08a0a0;
 }
+
 /* ******************************************************for mobile devices**************************************************************  */
 
 /* For screens smaller than 768px (mobile devices) */
@@ -225,33 +224,24 @@ footer{
 
     /* Hide the navbar by default and show it when the user taps the hamburger icon */
     #navbar ul {
-        display: none;
+        display:inline-block;
+        width: 100%;
     }
-
-    #navbar .icon {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        padding: 14px 16px;
+    li {
+        font-size: 13px;
     }
-
-    #navbar .icon:hover {
-        background-color: #f2f2f2;
-    }
-
-    #navbar .icon .bar {
-        display: block;
-        width: 22px;
-        height: 2px;
-        background-color: #333;
-        margin: 4px 0;
-    }
-
+    .navbar {
+        height: 50px;
+      }
+      
+      /* Reduce the font size of the links */
+      .navbar a {
+        font-size: 16px;
+      }
     /* Adjust the height and position of the hero image */
     .bgimg {
         height: 200px;
-        margin-top: 50px;
+        margin-top: -8px;
     }
 
     /* Adjust the size and position of the hero text */
@@ -278,7 +268,7 @@ footer{
     .paragraph {
         font-size: 16px;
         line-height: 1.5;
-        padding: 20px 0;
+        padding: 0px 0;
     }
 
     /* Adjust the size and position of the causes image */
@@ -289,36 +279,69 @@ footer{
 
     /* Adjust the font size and line height of the causes heading */
     .causesheading {
-        font-size: 24px;
+        font-size: 23px;
+        line-height: 0;
+        margin-top: 10px;
+    }
+    .controlheading {
+        font-size: 23px;
         line-height: 1.5;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     /* Adjust the font size and line height of the about us heading */
     .aboutusheading {
         font-size: 24px;
         line-height: 1.5;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     /* Adjust the font size and line height of the about us paragraph */
-    .paragraph {
-        font-size: 16px;
-        line-height: 1.5;
-        padding: 20px 0;
-    }
 
       footer {
-    font-size: 12px;
+    font-size: 8px;
     flex-direction: column;
     align-items: center;
   }
 
-  .impactssheading{
+  #impacts img {
     width: 100%;
-    height:;
+
+  }
+  .msg{
+    font-size: 18px;
+    width: 100%;
+    margin-top: -49px;
+    text-align: justify;
+  }
+  #navbar ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    height: auto;
+}
+.pfp, .pfollowus, .paddress{
+    font-size: 17px;
+}
+.newsletter {
+    font-size: 16px;
+    text-align: center;
+  }
+  #newsletter{
+    padding-top: 2px;
+  }
+
+
+  form {
+    
+    margin-left: 5%;
+    margin-right: 4%;
+    margin-top:10px ;
+    margin-bottom:10px ;
+  
   }
 }
+
 
 /* ******************************************************************************************************************************************* */
 

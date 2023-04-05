@@ -213,3 +213,112 @@ footer{
 #navbar ul li a:hover{
     border-bottom: 3px solid #ff7a59;
 }
+/* ******************************************************for mobile devices**************************************************************  */
+
+/* For screens smaller than 768px (mobile devices) */
+@media only screen and (max-width: 767px) {
+    /* Adjust the font size and line height for better readability on small screens */
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    /* Hide the navbar by default and show it when the user taps the hamburger icon */
+    #navbar ul {
+        display: none;
+    }
+
+    #navbar .icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 14px 16px;
+    }
+
+    #navbar .icon:hover {
+        background-color: #f2f2f2;
+    }
+
+    #navbar .icon .bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        background-color: #333;
+        margin: 4px 0;
+    }
+
+    /* Adjust the height and position of the hero image */
+    .bgimg {
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    /* Adjust the size and position of the hero text */
+    .herobox {
+        padding-top: 50px;
+    }
+
+    .herobox .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .herobox .right {
+        display: none;
+    }
+
+    /* Adjust the width and position of the container */
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    /* Adjust the font size and line height of the paragraphs */
+    .paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 20px 0;
+    }
+
+    /* Adjust the size and position of the causes image */
+    #causes img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* Adjust the font size and line height of the causes heading */
+    .causesheading {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+
+    /* Adjust the font size and line height of the about us heading */
+    .aboutusheading {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+
+    /* Adjust the font size and line height of the about us paragraph */
+    .paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 20px 0;
+    }
+
+      footer {
+    font-size: 12px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .impactssheading{
+    width: 100%;
+    height:;
+  }
+}
+
+/* ******************************************************************************************************************************************* */
+
